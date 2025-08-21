@@ -42,7 +42,6 @@ GitHub
 📄 Documentation
 
 ![ERD Diagram](Documentation/ERD_Diagram.png)
-ERD Diagram
 
 Project Report
 

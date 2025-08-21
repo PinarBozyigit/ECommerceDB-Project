@@ -41,7 +41,7 @@ GitHub
 
 📄 Documentation
 
-![ERD Diagram](Documentation/ERD_Diagram.png)
+![ERD Diagram](Documentation/Untitled Diagram.drawio.png)
 
 Project Report
 

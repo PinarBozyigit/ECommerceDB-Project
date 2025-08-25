@@ -1,3 +1,4 @@
+
 -- Customers Table
 CREATE TABLE Customers (
     CustomerID INT IDENTITY(1,1) PRIMARY KEY,
@@ -25,11 +26,14 @@ CREATE TABLE Products (
 CREATE TABLE Orders (
     OrderID INT IDENTITY(1,1) PRIMARY KEY,
     CustomerID INT NOT NULL,
+    EmployeeID INT NOT NULL, -- EmployeeID column was added after initial design
     OrderDate DATETIME DEFAULT GETDATE(),
     TotalAmount DECIMAL(10,2),
     Status NVARCHAR(20) DEFAULT 'Pending',
-    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID),
+    FOREIGN KEY (EmployeeID) REFERENCES Employees(EmployeeID)
 );
+
 
 
 -- OrderDetails Table
@@ -63,3 +67,12 @@ CREATE TABLE Payments (
     PaymentMethod NVARCHAR(50),
     FOREIGN KEY (OrderID) REFERENCES Orders(OrderID)
 );
+-- Test view
+SELECT * FROM vw_CustomerOrderSummary;
+
+-- Test RANK()
+SELECT e.EmployeeID, e.FirstName, e.LastName, SUM(o.TotalAmount) AS TotalSales,
+       RANK() OVER (ORDER BY SUM(o.TotalAmount) DESC) AS RankSales
+FROM Employees e
+INNER JOIN Orders o ON e.EmployeeID = o.EmployeeID
+GROUP BY e.EmployeeID, e.FirstName, e.LastName;

@@ -40,15 +40,15 @@ It includes database design, T-SQL development, stored procedures, triggers, vie
 
 
 
-\- \[01\_Create\_Tables.sql](Database/01\_Create\_Tables.sql) – Creates all tables: Customers, Products, Orders, OrderDetails, Payments, Employees  
+\- \[01\_Create\_Tables.sql](SQL/01_Create_Tables.sql) – Creates all tables: Customers, Products, Orders, OrderDetails, Payments, Employees  
 
-\- \[02\_Insert\_SampleData.sql](Database/02\_Insert\_SampleData.sql) – Inserts sample records into all tables  
+\- \[02\_Insert\_SampleData.sql](SQL/02_Insert_SampleData.sql) – Inserts sample records into all tables  
 
-\- \[03\_Update\_Delete\_Examples.sql](Database/03\_Update\_Delete\_Examples.sql) – Demonstrates UPDATE and DELETE operations  
+\- \[03\_Update\_Delete\_Examples.sql](SQL/03_Update_Delete_Examples.sql) – Demonstrates UPDATE and DELETE operations  
 
-\- \[04\_Sample\_Queries.sql](Database/04\_Sample\_Queries.sql) – Example queries: JOINs, Window Functions (RANK, NTILE), Views  
+\- \[04\_Sample\_Queries.sql](SQL/04_Sample_Queries.sql) – Example queries: JOINs, Window Functions (RANK, NTILE), Views  
 
-\- \[05\_StoredProcedure\_Trigger.sql](Database/05\_StoredProcedure\_Trigger.sql) – Stored procedures and triggers  
+\- \[05\_StoredProcedure\_Trigger.sql](SQL/05_StoredProcedure_Trigger.sql) – Stored procedures and triggers  
 
 
 

@@ -40,7 +40,7 @@ It includes database design, T-SQL development, stored procedures, triggers, vie
 
 
 
-\- \[01\_Create\_Tables.sql](Database/SQL/01_Create_Tables.sql) – Creates all tables: Customers, Products, Orders, OrderDetails, Payments, Employees  
+\- \[01\_Create\_Tables.sql](./SQL/01_Create_Tables.sql) – Creates all tables: Customers, Products, Orders, OrderDetails, Payments, Employees  
 
 \- \[02\_Insert\_SampleData.sql](SQL/02_Insert_SampleData.sql) – Inserts sample records into all tables  
 

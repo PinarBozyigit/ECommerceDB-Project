@@ -72,3 +72,40 @@ VALUES (1, 2, 1, 250.00);
 ENABLE TRIGGER trg_UpdateStock ON OrderDetails;
 
 
+
+-- ============================================
+-- 3. TRANSACTION + TRIGGER Test 
+-- ============================================
+
+-- Step 1: Optional – make sure SP exists (simple insert)
+CREATE OR ALTER PROCEDURE sp_AddOrder
+    @CustomerID INT,
+    @EmployeeID INT,
+    @OrderDate DATETIME,
+    @TotalAmount DECIMAL(10,2)
+AS
+BEGIN
+    INSERT INTO Orders (CustomerID, EmployeeID, OrderDate, TotalAmount)
+    VALUES (@CustomerID, @EmployeeID, @OrderDate, @TotalAmount);
+END;
+GO
+
+-- Step 2: Begin transaction
+BEGIN TRANSACTION;
+
+-- Step 3: Insert a new order directly (simpler than calling SP)
+INSERT INTO Orders (CustomerID, EmployeeID, OrderDate, TotalAmount)
+VALUES (1, 1, GETDATE(), 1000);
+
+-- Step 4: Capture the last inserted OrderID
+DECLARE @OrderID INT;
+SET @OrderID = SCOPE_IDENTITY();
+
+-- Step 5: Insert order details (trigger fires automatically)
+INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice)
+VALUES (@OrderID, 1, 2, 250.00);
+
+-- Step 6: Check product stock
+SELECT ProductID, ProductName, StockQty 
+FROM Products 
+WHERE ProductID = 1;

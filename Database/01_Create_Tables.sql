@@ -67,12 +67,3 @@ CREATE TABLE Payments (
     PaymentMethod NVARCHAR(50),
     FOREIGN KEY (OrderID) REFERENCES Orders(OrderID)
 );
--- Test view
-SELECT * FROM vw_CustomerOrderSummary;
-
--- Test RANK()
-SELECT e.EmployeeID, e.FirstName, e.LastName, SUM(o.TotalAmount) AS TotalSales,
-       RANK() OVER (ORDER BY SUM(o.TotalAmount) DESC) AS RankSales
-FROM Employees e
-INNER JOIN Orders o ON e.EmployeeID = o.EmployeeID
-GROUP BY e.EmployeeID, e.FirstName, e.LastName;

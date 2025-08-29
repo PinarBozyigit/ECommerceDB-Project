@@ -49,8 +49,8 @@ It includes database design, T-SQL development, stored procedures, triggers, vie
 - Add your SQL query screenshots and Power BI dashboard images here when ready:
 
 ## 📄 PowerBI
-![Top Customers Query](PowerBI/screenshots/top_customers_sql.png)
-![Top Customers Dashboard](PowerBI/screenshots/top_customers_dashboard.png)
+- [Top Customers Query](PowerBI/screenshots/top_customers_sql.png)
+- [Top Customers Dashboard](PowerBI/screenshots/top_customers_dashboard.png)
 
 
 ## 📄 Documentation

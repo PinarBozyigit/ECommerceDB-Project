@@ -114,7 +114,8 @@ It includes database design, T-SQL development, stored procedures, triggers, vie
 
 📄 Documentation
 
-[ERD Diagram](Documentation/ERD_Diagram.png).
+![ERD Diagram](Documentation/ERD_Diagram.png)
+
 
 Project Report
 

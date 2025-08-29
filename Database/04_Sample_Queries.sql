@@ -13,7 +13,7 @@ FROM Orders o
 INNER JOIN Customers c ON o.CustomerID = c.CustomerID;
 
 -- b) Show order details with product names
---Format C=currency , en-GB =£
+--Format C=currency , en-GB =Â£
 SELECT od.OrderDetailID, o.OrderID, p.ProductName, od.Quantity,FORMAT(price, 'C', 'en-GB')  as Price
 FROM OrderDetails od
 INNER JOIN Orders o ON od.OrderID = o.OrderID
@@ -83,7 +83,7 @@ FROM Orders;
 -- 6. TRANSACTION + TRIGGER Test 
 -- ============================================
 
--- Step 1: Optional – make sure SP exists (simple insert)
+-- Step 1: Optional â€“ make sure SP exists (simple insert)
 CREATE OR ALTER PROCEDURE sp_AddOrder
     @CustomerID INT,
     @EmployeeID INT,
@@ -123,9 +123,6 @@ ROLLBACK TRANSACTION;
 -- but rollback ensures all changes are undone.
 
 
-
-
-
 -- =======================
 -- 7. VIEW Example
 -- =======================
@@ -136,6 +133,9 @@ SELECT c.CustomerID, c.CustomerName, COUNT(o.OrderID) AS TotalOrders, SUM(o.Tota
 FROM Customers c
 LEFT JOIN Orders o ON c.CustomerID = o.CustomerID
 GROUP BY c.CustomerID, c.CustomerName;
+
+-- Test view
+SELECT * FROM vw_CustomerOrderSummary;
 
 -- =======================
 -- 8. EMPLOYEE SALES REPORT

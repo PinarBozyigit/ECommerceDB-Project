@@ -77,54 +77,8 @@ SELECT OrderID, TotalAmount,
        END AS OrderLevel
 FROM Orders;
 
-
-
--- ============================================
--- 6. TRANSACTION + TRIGGER Test 
--- ============================================
-
--- Step 1: Optional – make sure SP exists (simple insert)
-CREATE OR ALTER PROCEDURE sp_AddOrder
-    @CustomerID INT,
-    @EmployeeID INT,
-    @OrderDate DATETIME,
-    @TotalAmount DECIMAL(10,2)
-AS
-BEGIN
-    INSERT INTO Orders (CustomerID, EmployeeID, OrderDate, TotalAmount)
-    VALUES (@CustomerID, @EmployeeID, @OrderDate, @TotalAmount);
-END;
-GO
-
--- Step 2: Begin transaction
-BEGIN TRANSACTION;
-
--- Step 3: Insert a new order directly (simpler than calling SP)
-INSERT INTO Orders (CustomerID, EmployeeID, OrderDate, TotalAmount)
-VALUES (1, 1, GETDATE(), 1000);
-
--- Step 4: Capture the last inserted OrderID
-DECLARE @OrderID INT;
-SET @OrderID = SCOPE_IDENTITY();
-
--- Step 5: Insert order details (trigger fires automatically)
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice)
-VALUES (@OrderID, 1, 2, 250.00);
-
--- Step 6: Check product stock
-SELECT ProductID, ProductName, StockQty 
-FROM Products 
-WHERE ProductID = 1;
-
--- Step 7: Rollback to undo all changes
-ROLLBACK TRANSACTION;
-
--- Note: Trigger executed when inserting into OrderDetails, 
--- but rollback ensures all changes are undone.
-
-
 -- =======================
--- 7. VIEW Example
+-- 6. VIEW Example
 -- =======================
 
 -- View for customer order summary
@@ -138,7 +92,7 @@ GROUP BY c.CustomerID, c.CustomerName;
 SELECT * FROM vw_CustomerOrderSummary;
 
 -- =======================
--- 8. EMPLOYEE SALES REPORT
+-- 7. EMPLOYEE SALES REPORT
 -- =======================
 
 -- Total sales by employee

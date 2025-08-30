@@ -55,7 +55,7 @@ Below are sample Power BI visuals created using ECommerceDB data.
 ### Dashboard Overview
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/kullaniciAdi/repoAdi/blob/main/SampleDashboards/MonthlySalesTrend.png?raw=true" width="300"/>
+  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/MonthlySalesTrend.png" width="300"/>
   <img src="https://github.com/kullaniciAdi/repoAdi/blob/main/SampleDashboards/TopSellingProducts.png?raw=true" width="300"/>
   <img src="https://github.com/kullaniciAdi/repoAdi/blob/main/SampleDashboards/ProductPriceGroups.png?raw=true" width="300"/>
 </div>
@@ -65,7 +65,7 @@ Below are sample Power BI visuals created using ECommerceDB data.
 ### Other Visuals
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/kullaniciAdi/repoAdi/blob/main/SampleDashboards/CustomerSales.png?raw=true" width="300"/>
+  <img src="https://github.com/kullaniciAdi/repoAdi/blob/main/SampleDashboards/CustomerSales.png" width="300"/>
   <img src="https://github.com/kullaniciAdi/repoAdi/blob/main/SampleDashboards/AverageProductPrice.png?raw=true" width="300"/>
   <img src="https://github.com/kullaniciAdi/repoAdi/blob/main/SampleDashboards/YearlyRevenueComparison.png?raw=true" width="300"/>
 </div>

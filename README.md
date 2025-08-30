@@ -46,11 +46,29 @@ It includes database design, T-SQL development, stored procedures, triggers, vie
 
 ## 📊 Sample Dashboards
 
-- Add your SQL query screenshots and Power BI dashboard images here when ready:
+## Sample Dashboards
 
-## 📄 PowerBI
-- [Top Customers Query](PowerBI/screenshots/top_customers_sql.png)
-- [Top Customers Dashboard](PowerBI/screenshots/top_customers_dashboard.png)
+Below are sample Power BI visuals created using ECommerceDB data.
+
+---
+
+### Dashboard Overview
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/kullaniciAdi/repoAdi/blob/main/SampleDashboards/MonthlySalesTrend.png?raw=true" width="300"/>
+  <img src="https://github.com/kullaniciAdi/repoAdi/blob/main/SampleDashboards/TopSellingProducts.png?raw=true" width="300"/>
+  <img src="https://github.com/kullaniciAdi/repoAdi/blob/main/SampleDashboards/ProductPriceGroups.png?raw=true" width="300"/>
+</div>
+
+---
+
+### Other Visuals
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/kullaniciAdi/repoAdi/blob/main/SampleDashboards/CustomerSales.png?raw=true" width="300"/>
+  <img src="https://github.com/kullaniciAdi/repoAdi/blob/main/SampleDashboards/AverageProductPrice.png?raw=true" width="300"/>
+  <img src="https://github.com/kullaniciAdi/repoAdi/blob/main/SampleDashboards/YearlyRevenueComparison.png?raw=true" width="300"/>
+</div>
 
 
 ## 📄 Documentation

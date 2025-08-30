@@ -55,7 +55,7 @@ Below are sample Power BI visuals created using ECommerceDB data.
 ### Dashboard Overview
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/MonthlySalesTrend.png?raw=true" width="300"/>
+  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/MonthlySalesTrend.png" width="300"/>
   <img src="https://github.com/kullaniciAdi/repoAdi/blob/main/SampleDashboards/TopSellingProducts.png?raw=true" width="300"/>
   <img src="https://github.com/kullaniciAdi/repoAdi/blob/main/SampleDashboards/ProductPriceGroups.png?raw=true" width="300"/>
 </div>

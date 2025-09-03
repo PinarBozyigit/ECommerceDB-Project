@@ -39,34 +39,42 @@ The ECommerceDB contains the main tables:
 - SQL scripts were imported into Power BI for visualization.  
 - Visuals used:
 
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/MonthlySalesTrend.png" width="300" height="200"/>
+  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/TopSellingProducts.png" width="300" height="200"/>
+  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/ProductPriceGroups.png" width="300" height="200"/>
+</div>
+
+---
+
 ### Query 1 – Monthly Sales Trend
 <a href="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/MonthlySalesTrend.png">
-  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/MonthlySalesTrend.png" alt="Query1 – Monthly Sales Trend" width="300"/>
+  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/MonthlySalesTrend.png" alt="Query1 – Monthly Sales Trend" width="200"/>
 </a>
 
 ### Query 2 – Top Selling Products
 <a href="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/TopSellingProducts.png">
-  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/TopSellingProducts.png" alt="Query2 – Top Selling Products" width="300"/>
+  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/TopSellingProducts.png" alt="Query2 – Top Selling Products" width="200"/>
 </a>
 
 ### Query 3 – Product Price Groups
 <a href="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/ProductPriceGroups.png">
-  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/ProductPriceGroups.png" alt="Query3 – Product Price Groups" width="300"/>
+  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/ProductPriceGroups.png" alt="Query3 – Product Price Groups" width="200"/>
 </a>
 
 ### Query 4 – Top Products by Revenue
-<a href="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/TopProductsByRevenue.png">
-  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/TopProductsByRevenue.png" alt="Query4 – Top Products by Revenue" width="300"/>
+<a href="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/SumTotalAvenue.png">
+  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/SumTotalAvenue.png" alt="Query4 – Top Products by Revenue" width="200"/>
 </a>
 
 ### Query 5 – Monthly/Yearly Sales Comparison
-<a href="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/MonthlyYearlyComparison.png">
-  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/MonthlyYearlyComparison.png" alt="Query5 – Monthly/Yearly Sales Comparison" width="300"/>
+<a href="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/CountOfTotalRevenue.png">
+  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/CountOfTotalRevenue.png" alt="Query5 – Monthly/Yearly Sales Comparison" width="200"/>
 </a>
 
 ### Query 6 – Top Customers by Revenue
-<a href="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/TopCustomersByRevenue.png">
-  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/TopCustomersByRevenue.png" alt="Query6 – Top Customers by Revenue" width="300"/>
+<a href="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/TopCustomersbyRevenue.png">
+  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/TopCustomersbyRevenue.png" alt="Query6 – Top Customers by Revenue" width="200"/>
 </a>
 
 - Data labels, currency formatting (£), and axis formatting applied for readability.  

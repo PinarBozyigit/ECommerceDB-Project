@@ -7,6 +7,13 @@ It includes database design (ERD), T-SQL scripts (tables, stored procedures, tri
 and interactive Power BI dashboards for sales analysis and reporting. 
 The project highlights both backend data engineering and frontend visualization capabilities.
 
+---
+
+## 🚀 Setup Instructions  
+### 1. Clone the Repository  
+Run the following commands:  
+`git clone https://github.com/PinarBozyigit/ECommerceDB-Project.git`  
+`cd ECommerceDB-Project`
 
 ---
 
@@ -48,6 +55,17 @@ The project highlights both backend data engineering and frontend visualization 
 
 ---
 
+### 4. Documentation & Screenshots  
+- 📄 Full project report → [Project_Report.md](Project_Report.md)  
+- 📝 README file → [README.md](README.md)  
+- 📷 Power BI screenshots → [`/PowerBI/screenshots/`]
+- [ERD Diagram](Documentation/ERD_Diagram.png)
+
+
+> Note: This repository is public. You can explore the code, documentation, and screenshots directly on GitHub. To run the dashboards, SQL Server and Power BI Desktop are required.
+
+
+
 ## 📊 Sample Dashboards
 
 ## Sample Dashboards
@@ -73,12 +91,6 @@ Below are sample Power BI visuals created using ECommerceDB data.
   <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/CountOfTotalRevenue.png" width="300" height="150"/>
   <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/TopCustomersbyRevenue.png" width="300" height="150"/>
 </div>
-
-
-## 📄 Documentation
-- [ERD Diagram](Documentation/ERD_Diagram.png)
-- [Project Report](Project_Report.md)  
-
 
 
 

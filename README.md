@@ -64,7 +64,7 @@ Run the following commands:
 
 > Note: This repository is public. You can explore the code, documentation, and screenshots directly on GitHub. To run the dashboards, SQL Server and Power BI Desktop are required.
 
-
+---
 
 ## 📊 Sample Dashboards
 

@@ -42,12 +42,9 @@ The ECommerceDB contains the main tables:
 - SQL scripts were imported into Power BI for visualization.  
 - Visuals used:
 
-<div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/MonthlySalesTrend.png" width="300" height="200"/>[Query1 – Monthly Sales Trend]
-  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/TopSellingProducts.png" width="300" height="200"/>
-  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/ProductPriceGroups.png" width="300" height="200"/>
-</div>
-
+<a href="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/MonthlySalesTrend.png">
+  <img src="PowerBI/Screenshots/MonthlySalesTrend.png" alt="Query1 – Monthly Sales Trend" width="300"/>
+</a>
 
   - **Query 1:** Line chart – monthly sales trend
   - [![Query1 – Monthly Sales Trend](PowerBI/Screenshots/MonthlySalesTrend.png){width=300px}](https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/MonthlySalesTrend.png)

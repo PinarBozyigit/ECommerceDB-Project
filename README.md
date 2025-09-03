@@ -57,7 +57,8 @@ Run the following commands:
 
 ### 4. Documentation & Screenshots  
 - 📄 Full project report → [Project_Report.md](Project_Report.md)  
-- 📝 README file → [README.md](README.md)  
+- 📝 README file → [README.md](README.md)
+- 📊 Power BI report file → [`ECommerceDB_Project.pbix`](PowerBI/ECommerceDB_Project.pbix) 
 - 📷 Power BI screenshots → [`/PowerBI/screenshots/`]
 - [ERD Diagram](Documentation/ERD_Diagram.png)
 

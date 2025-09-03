@@ -1,8 +1,12 @@
 # 🛒 ECommerceDB Project (SQL Server + Power BI)
 
-This project demonstrates a self-designed E-Commerce Database and reporting system, built to showcase SQL development and business intelligence skills using Power BI.
+This project demonstrates a self-designed E-Commerce Database and reporting system, 
+developed to showcase SQL development and business intelligence skills using Power BI. 
 
-It includes database design, T-SQL development, stored procedures, triggers, views, and interactive Power BI dashboards for sales analysis and reporting.
+It includes database design (ERD), T-SQL scripts (tables, stored procedures, triggers, views), 
+and interactive Power BI dashboards for sales analysis and reporting. 
+The project highlights both backend data engineering and frontend visualization capabilities.
+
 
 ---
 

@@ -25,10 +25,14 @@ The ECommerceDB contains the main tables:
 | Script | Description | Link |
 |--------|------------|------|
 | `01_CreateTables.sql` | Creates all tables with necessary constraints | [Link](Database/01_Create_Tables.sql) |
-| `02_InsertProducts.sql` | Populates `Products` table with sample data | [Link](Database/02_Insert_Products.sql) |
-| `03_InsertCustomers.sql` | Populates `Customers` table with sample data | [Link](Database/03_Insert_Customers.sql) |
-| `04_InsertOrders.sql` | Populates `Orders` and `OrderDetails` tables | [Link](Database/04_Insert_Orders.sql) |
-| `05_Queries.sql` | Contains all SQL queries for the project | [Link](Database/05_Queries.sql) |
+| `02_InsertProducts.sql` | Populates `Products` table with sample data | [Link](Database/02_Insert_SampleData.sql) |
+| `03_InsertCustomers.sql` | Populates `Customers` table with sample data | [Link](Database/03_Update_Delete_Examples.sql) |
+| `04_InsertOrders.sql` | Populates `Orders` and `OrderDetails` tables | [Link](Database/04_Sample_Queries.sql) |
+| `05_Queries.sql` | Contains all SQL queries for the project | [Link](Database/05_StoredProcedure_Trigger.sql) |
+
+
+> Click the links to view the SQL scripts directly on GitHub.
+
 
 > These scripts can be executed directly in SQL Server to fully recreate the database and run the project queries.  
 

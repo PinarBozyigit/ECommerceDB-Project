@@ -55,9 +55,9 @@ Below are sample Power BI visuals created using ECommerceDB data.
 ### Dashboard Overview
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/MonthlySalesTrend.png" width="300"/>
-  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/TopSellingProducts.png" width="300"/>
-  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/ProductPriceGroups.png" width="300"/>
+  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/MonthlySalesTrend.png" width="300" height="200"/>
+  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/TopSellingProducts.png" width="300" height="200"/>
+  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/ProductPriceGroups.png" width="300" height="200"/>
 </div>
 
 ---
@@ -66,8 +66,8 @@ Below are sample Power BI visuals created using ECommerceDB data.
 
 <div style="display: flex; justify-content: space-between;">
   <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/SumTotalAvenue.png" width="300" height="200"/>
-  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/CountOfTotalRevenue.png" width="300"/>
-  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/TopCustomersbyRevenue.png" width="300"/>
+  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/CountOfTotalRevenue.png" width="300" height="200"/>
+  <img src="https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/TopCustomersbyRevenue.png" width="300" height="200"/>
 </div>
 
 

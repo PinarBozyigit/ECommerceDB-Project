@@ -42,21 +42,22 @@ The ECommerceDB contains the main tables:
 - SQL scripts were imported into Power BI for visualization.  
 - Visuals used:  
   - **Query 1:** Line chart – monthly sales trend  
-    ![Query1 – Monthly Sales Trend](Screenshots/Query1.png)  
+    ![Query1 – Monthly Sales Trend](https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/MonthlySalesTrend.png)  
   - **Query 2:** Bar chart – top selling products by quantity  
-    ![Query2 – Top Selling Products](Screenshots/Query2.png)  
+    ![Query2 – Top Selling Products](https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/TopSellingProducts.png)  
   - **Query 3:** Pie chart – product price groups (Low, Medium, High revenue)  
-    ![Query3 – Product Price Groups](Screenshots/Query3.png)  
+    ![Query3 – Product Price Groups](https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/ProductPriceGroups.png)  
   - **Query 4:** Column chart – top products by revenue  
-    ![Query4 – Top Products by Revenue](Screenshots/Query4.png)  
+    ![Query4 – Top Products by Revenue](https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/SumTotalAvenue.png)  
   - **Query 5:** Line chart – monthly/yearly sales comparison  
-    ![Query5 – Monthly/Yearly Sales Comparison](Screenshots/Query5.png)  
+    ![Query5 – Monthly/Yearly Sales Comparison](https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/CountOfTotalRevenue.png)  
   - **Query 6:** Bar chart – total revenue per customer  
-    ![Query6 – Top Customers by Revenue](Screenshots/Query6.png)  
+    ![Query6 – Top Customers by Revenue](https://github.com/PinarBozyigit/ECommerceDB-Project/blob/main/PowerBI/screenshots/TopCustomersbyRevenue.png)  
 
 - Data labels, currency formatting (£), and axis formatting applied for readability.  
 
 ---
+
 
 ## 4. Insights & Findings
 - Top-selling products dominate total revenue.  

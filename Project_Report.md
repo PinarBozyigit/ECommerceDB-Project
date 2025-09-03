@@ -24,7 +24,7 @@ The ECommerceDB contains the main tables:
 
 | Script | Description | Link |
 |--------|------------|------|
-| `01_CreateTables.sql` | Creates all tables with necessary constraints | [Link](Database/01_CreateTables.sql) |
+| `01_CreateTables.sql` | Creates all tables with necessary constraints | [Link](Database/01_Create_Tables.sql) |
 | `02_InsertProducts.sql` | Populates `Products` table with sample data | [Link](Database/02_Insert_SampleData.sql) |
 | `03_InsertCustomers.sql` | Populates `Customers` table with sample data | [Link](Database//03_Update_Delete_Examples.sql) |
 | `04_InsertOrders.sql` | Populates `Orders` and `OrderDetails` tables | [Link](Database/04_Sample_Queries.sql) |

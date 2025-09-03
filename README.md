@@ -73,7 +73,7 @@ Below are sample Power BI visuals created using ECommerceDB data.
 
 ## 📄 Documentation
 - [ERD Diagram](Documentation/ERD_Diagram.png)  
-- [Project Report](Documentation/Project_Report.pdf)  
+- [Project Report](Documentation/Project_Report.md)  
 
 
 

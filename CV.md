@@ -1,6 +1,6 @@
 # [Pinar Bozyigit]
 
-**Email:** [pinardincerbozyigit@gmail.com](mailto:pinardincerbozyigit@gmail.com) | **Phone:** 07460121227  | **LinkedIn:** [linkedin.com/in/pinar-bozyigit](https://linkedin.com/in/username) | **GitHub:** [github.com/PinarBozyigit](https://github.com/PinarBozyigit)
+**Email:** [pinardincerbozyigit@gmail.com](mailto:pinardincerbozyigit@gmail.com) | **Phone:** 07460121227  | **LinkedIn:** [linkedin.com/in/pinar-bozyigit](https://linkedin.com/in/pinar-bozyigit) | **GitHub:** [github.com/PinarBozyigit](https://github.com/PinarBozyigit)
 
 ---
 

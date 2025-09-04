@@ -34,7 +34,8 @@ Experienced software developer with 5+ years in enterprise-level projects, skill
 ##  Skills / Technologies
 
 * **Programming & Development:** C#, JavaScript (beginner-level), HTML, XML
-* **Databases:** MSSQL 2005 / 2008 / 2012 / SQL Server Management Studio 21, T-SQL (Stored Procedures, Views, Triggers)
+* **Databases:** ![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white)
+MSSQL 2005 / 2008 / 2012 / SQL Server Management Studio 21,![T-SQL](https://img.shields.io/badge/T--SQL-007ACC?style=flat&logo=microsoft-sql-server&logoColor=white)  T-SQL (Stored Procedures, Views, Triggers)
 * **Tools & Platforms:** Visual Studio 2005–2012, Dreamweaver, GitHub
 * **Other Skills:** Web design & e-commerce development, Database design & development, Online training & registration systems
 

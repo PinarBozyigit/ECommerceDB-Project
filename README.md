@@ -33,7 +33,7 @@ Run the following commands:
 - [04_Sample_Queries.sql](Database/04_Sample_Queries.sql) – Example queries: JOINs, Window Functions (RANK, NTILE), Views  
 - [05_StoredProcedure_Trigger.sql](Database/05_StoredProcedure_Trigger.sql) – Stored procedures and triggers  
 - [06_Export_import_demo.sql](Database/06_Export_import_demo.sql) – Export / Import Data
-- - [06_Export_import_demo.sql](Database/07_Performance_tuning_large_data.sql) – Performans Tuning Large Data
+- [07_Performance_tuning_large_data.sql](Database/07_Performance_tuning_large_data.sql) – Performans Tuning Large Data
 > Click the links to view the SQL scripts directly on GitHub.
 
 ---

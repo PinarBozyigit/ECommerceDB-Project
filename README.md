@@ -32,7 +32,7 @@ Run the following commands:
 - [03_Update_Delete_Examples.sql](Database/03_Update_Delete_Examples.sql) – Demonstrates UPDATE and DELETE operations  
 - [04_Sample_Queries.sql](Database/04_Sample_Queries.sql) – Example queries: JOINs, Window Functions (RANK, NTILE), Views  
 - [05_StoredProcedure_Trigger.sql](Database/05_StoredProcedure_Trigger.sql) – Stored procedures and triggers  
-
+- [06_Export_import_demo.sql](Database/06_Export_import_demo.sql) – Export / Import Data
 > Click the links to view the SQL scripts directly on GitHub.
 
 ---
